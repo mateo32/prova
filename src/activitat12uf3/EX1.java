@@ -24,7 +24,7 @@ public class EX1 {
      */
     public static void main(String[] args) throws MalformedURLException, IOException {
         URL connection = new URL("http://www.puigcerda.cat/policialocal/gencat.gif");
-        long ultimModificat = 12555;
+        long ultimModificat = 56988;
         System.out.println(ultimModificat);
         Map mapa = connection.openConnection().getHeaderFields();
         Iterator iterator = mapa.keySet().iterator();
